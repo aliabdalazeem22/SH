@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arabic is the default language. English lives in values-en. -->
+    <string name="app_name">SwiftShare</string>
+    <string name="send">إرسال</string>
+    <string name="receive">استقبال</string>
+    <string name="home_title">سويفت شير</string>
+    <string name="home_subtitle">نقل سريع وآمن للملفات مباشرة بين الأجهزة</string>
+    <string name="home">الرئيسية</string>
+    <string name="back">رجوع</string>
+    <string name="open">فتح</string>
+    <string name="stop">إيقاف</string>
+    <string name="on">مفعّل</string>
+    <string name="off">مغلق</string>
+
+    <string name="select_files">اختيار الملفات</string>
+    <string name="selected_files_count">%d ملف محدد</string>
+    <string name="select_files_hint">اختر ملفاً أو أكثر عبر منتقي الملفات. لا حاجة لأي إذن تخزين.</string>
+    <string name="add_more_files">إضافة ملفات</string>
+    <string name="remove_file">إزالة الملف</string>
+    <string name="total_size">الإجمالي: %s</string>
+    <string name="ready_to_connect">جاهز للاتصال بجهاز قريب.</string>
+
+    <string name="start_discovery">البحث عن الأجهزة القريبة</string>
+    <string name="scanning">جاري البحث…</string>
+    <string name="no_devices_found">لم يتم العثور على أجهزة قريبة</string>
+    <string name="make_discoverable">اجعل جهازك مرئياً</string>
+    <string name="advertising">جهازك مرئي الآن، في انتظار طلب اتصال…</string>
+    <string name="device_name">اسم الجهاز</string>
+    <string name="nearby_devices">الأجهزة القريبة</string>
+    <string name="tap_to_connect">اضغط للاتصال</string>
+    <string name="tap_peer_hint">اضغط على جهاز لبدء الاتصال. سيُطلب من الجهاز الآخر تأكيد الاستقبال.</string>
+    <string name="sender_hint">تأكد من أن الجهاز الآخر على شاشة الاستقبال، وأن البلوتوث وWi-Fi مفعّلان، وأن الجهازين قريبان.</string>
+    <string name="no_peers_hint">أبقِ Wi-Fi والبلوتوث مفعّلين واقترب من الجهاز الآخر. تأكد من فتح شاشة الاستقبال على الجهاز الآخر.</string>
+    <string name="waiting_for_sender_hint">جهازك مرئي. انتظر حتى يبدأ جهاز آخر الإرسال، ثم اقبل الطلب.</string>
+    <string name="waiting_for_sender">في انتظار بدء الإرسال…</string>
+    <string name="waiting_for_accept">في انتظار قبول الجهاز الآخر للاتصال…</string>
+    <string name="connecting_to">جاري الاتصال بـ %s</string>
+    <string name="receive_hint">اجعل جهازك مرئياً ليبدأ جهاز آخر الإرسال إليك.</string>
+
+    <string name="incoming_request">طلب استقبال ملفات</string>
+    <string name="from_device">من الجهاز: %s</string>
+    <string name="accept">قبول</string>
+    <string name="decline">رفض</string>
+    <string name="accept_connection_hint">اقبل الاتصال لبدء استقبال الملفات. لن يُنقل أي ملف قبل موافقتك.</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="verification_code_hint">يجب أن يظهر الرمز نفسه على الجهازين قبل المتابعة.</string>
+
+    <string name="transferring">جاري النقل</string>
+    <string name="receiving">جاري الاستقبال</string>
+    <string name="sending">جاري الإرسال</string>
+    <string name="preparing">جاري التحضير…</string>
+    <string name="preparing_send">جاري تجهيز الملفات للإرسال…</string>
+    <string name="preparing_receive">جاري تجهيز الاستقبال…</string>
+    <string name="file_counter">الملف %1$d من %2$d</string>
+    <string name="transfer_in_progress">يوجد نقل نشط</string>
+    <string name="return_to_transfer">يمكنك العودة إلى شاشة النقل لمتابعة الحالة.</string>
+
+    <string name="transfer_complete">اكتمل النقل</string>
+    <string name="transfer_failed">فشل النقل</string>
+    <string name="transfer_canceled">تم إلغاء النقل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="saved_to">تم الحفظ في: %s</string>
+    <string name="received_files_note">تُحفظ الملفات أولاً في ملف مؤقت، ثم تُتحقق وتُنقل باسم فريد. لا تظهر الملفات الجزئية كملفات مكتملة.</string>
+    <string name="sent_successfully">تم تسليم جميع الملفات والتحقق منها على الجهاز الآخر.</string>
+    <string name="canceled_hint">أُلغي النقل. لم تُحفظ أي ملفات جزئية.</string>
+
+    <string name="history">سجل النقل</string>
+    <string name="history_empty">لا توجد عمليات نقل بعد</string>
+    <string name="history_empty_hint">ستظهر عمليات النقل المكتملة هنا مع الاسم والحجم والسرعة والحالة.</string>
+    <string name="history_note">لا يُخزَّن محتوى الملفات في السجل.</string>
+    <string name="history_storage_note">يُحفظ السجل محلياً كملف JSON صغير داخل التطبيق، ولا يحتوي على أي محتوى ملفات.</string>
+    <string name="clear_history">مسح السجل</string>
+    <string name="status_completed">مكتمل</string>
+    <string name="status_failed">فشل</string>
+    <string name="status_canceled">ملغى</string>
+    <string name="status_in_progress">قيد التنفيذ</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="device">الجهاز</string>
+    <string name="permissions">الأذونات</string>
+    <string name="permissions_granted">جميع الأذونات المطلوبة ممنوحة.</string>
+    <string name="permissions_missing">بعض الأذونات مطلوبة لبدء الاكتشاف.</string>
+    <string name="radios">الاتصال اللاسلكي</string>
+    <string name="radio_status">البلوتوث: %1$s • Wi-Fi: %2$s</string>
+    <string name="radio_note">البلوتوث للاكتشاف فقط. نقل البيانات يتم عبر Wi-Fi المحلي عالي السرعة.</string>
+    <string name="storage">التخزين</string>
+    <string name="storage_note">لا يحتاج التطبيق إلى إذن تخزين. الملفات المستلمة تُكتب في مجلد التطبيق الخاص، ويمكنك نقلها من مدير الملفات.</string>
+    <string name="save_to">الحفظ في</string>
+    <string name="storage_dir">مجلد SwiftShare الداخلي</string>
+    <string name="language">اللغة</string>
+    <string name="language_arabic">العربية (الافتراضية)</string>
+    <string name="language_english">English</string>
+    <string name="language_note">يتبع التطبيق لغة النظام. العربية هي الافتراضية وواجهتها من اليمين إلى اليسار.</string>
+    <string name="about">حول التطبيق</string>
+    <string name="privacy_note">نقل مباشر من جهاز إلى جهاز فقط. لا حساب، ولا سحابة، ولا إنترنت، ولا بيانات جوّال.</string>
+    <string name="speed_disclaimer">السرعة الفعلية تعتمد على الجهازين وجودة Wi-Fi والمسافة والبيئة. الأرقام المعروضة قياسات حقيقية وليست وعوداً.</string>
+
+    <string name="benchmark">قياس السرعة</string>
+    <string name="benchmark_desc">قياس السرعة الفعلية للنقل باستخدام ملف تجريبي</string>
+    <string name="test_file_size">حجم الملف التجريبي</string>
+    <string name="run_benchmark">بدء القياس</string>
+    <string name="open_benchmark">فتح قياس السرعة</string>
+    <string name="mb_per_sec">ميجابايت/ثانية</string>
+    <string name="eta">الوقت المتبقي المقدر</string>
+    <string name="speed">السرعة</string>
+    <string name="transferred">تم النقل</string>
+    <string name="of">من</string>
+    <string name="file">ملف</string>
+    <string name="files">ملفات</string>
+    <string name="benchmark_discovery_subtitle">اختر جهاز استقبال لقياس السرعة الحقيقية</string>
+    <string name="benchmark_needs_connection">اتصل بجهاز استقبال أولاً</string>
+    <string name="benchmark_needs_connection_hint">القياس يرسل ملفاً تجريبياً حقيقياً إلى جهاز استقبال ويقيس زمن النقل الكامل. لا توجد أرقام وهمية.</string>
+    <string name="connect_to_receiver">البحث عن جهاز استقبال</string>
+    <string name="benchmark_running_hint">جاري إرسال ملف تجريبي حقيقي… لا تُغلق الشاشة على الجهاز المستقبِل.</string>
+    <string name="benchmark_failed">تعذّر إكمال القياس. تحقق من الاتصال وحاول مجدداً.</string>
+    <string name="measured_result">النتيجة المقاسة</string>
+    <string name="measured_badge">قياس حقيقي</string>
+    <string name="time_label">الزمن</string>
+    <string name="benchmark_disclaimer">يقيس هذا الرقم نقلاً حقيقياً عبر Nearby Connections من جهاز إلى جهاز، بما في ذلك كتابة الملف على الجهاز المستقبِل. النتائج تختلف حسب الظروف.</string>
+    <string name="change_receiver">تغيير جهاز الاستقبال</string>
+
+    <string name="permission_bluetooth_title">أذونات الجوار</string>
+    <string name="permission_bluetooth_message">يحتاج التطبيق إلى أذونات البلوتوث وWi-Fi للعثور على الأجهزة القريبة وإنشاء اتصال مباشر. تُنقل البيانات عبر Wi-Fi المحلي، وليس عبر بلوتوث أو الإنترنت.</string>
+    <string name="permission_location_title">إذن الموقع</string>
+    <string name="permission_location_message">يُستخدم إذن الموقع على إصدارات أندرويد الأقدم (12 وما قبلها) لاكتشاف الأجهزة القريبة عبر Nearby Connections.</string>
+    <string name="permission_denied">تم رفض الإذن. لن تعمل ميزات النقل حتى يتم منحه.</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="nearby_unavailable">خدمة Nearby Connections غير متوفرة. تأكد من تحديث خدمات Google Play.</string>
+    <string name="google_play_services">تأكد من تحديث خدمات Google Play.</string>
+    <string name="bluetooth_disabled_title">البلوتوث مغلق</string>
+    <string name="bluetooth_disabled_message">فعّل البلوتوث للعثور على الأجهزة القريبة وإنشاء الاتصال. تُنقل الملفات عبر Wi-Fi.</string>
+    <string name="wifi_disabled_title">Wi-Fi مغلق</string>
+    <string name="wifi_disabled_message">فعّل Wi-Fi لنقل الملفات بسرعة عالية. Nearby Connections يستخدمه للبيانات.</string>
+
+    <string name="no_files_selected">لم يتم تحديد أي ملفات</string>
+    <string name="select_at_least_one_file">اختر ملفاً واحداً على الأقل</string>
+    <string name="invalid_file">ملف غير صالح أو غير قابل للقراءة</string>
+    <string name="insufficient_storage">مساحة التخزين غير كافية</string>
+    <string name="connection_lost">فُقد الاتصال بالجهاز الآخر</string>
+    <string name="connection_rejected">تم رفض طلب الاتصال</string>
+    <string name="connection_timeout">انتهت مهلة الاتصال</string>
+    <string name="duplicate_file">يوجد ملف بالاسم نفسه</string>
+    <string name="rename_file">إعادة تسمية الملف</string>
+    <string name="keep_both">الاحتفاظ بكلا الملفين</string>
+    <string name="overwrite">استبدال الملف</string>
+
+    <string name="qr_code">رمز QR</string>
+    <string name="connection_code">رمز الاتصال المختصر</string>
+    <string name="enter_code">أدخل الرمز</string>
+    <string name="connect_by_code">الاتصال بالرمز</string>
+    <string name="coming_soon">قريباً</string>
+    <string name="apk_sharing_note">يمكن مشاركة ملفات APK عبر منتقي الملفات، ولا يتم تثبيتها تلقائياً أبداً.</string>
+</resources>

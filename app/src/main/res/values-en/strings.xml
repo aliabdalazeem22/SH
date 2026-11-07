@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftShare</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="home_title">SwiftShare</string>
+    <string name="home_subtitle">Fast, secure file transfer directly between devices</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="open">Open</string>
+    <string name="stop">Stop</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="select_files">Select files</string>
+    <string name="selected_files_count">%d file(s) selected</string>
+    <string name="select_files_hint">Pick one or more files with the system file picker. No storage permission is required.</string>
+    <string name="add_more_files">Add more files</string>
+    <string name="remove_file">Remove file</string>
+    <string name="total_size">Total: %s</string>
+    <string name="ready_to_connect">Ready to connect to a nearby device.</string>
+
+    <string name="start_discovery">Find nearby devices</string>
+    <string name="scanning">Scanning…</string>
+    <string name="no_devices_found">No nearby devices found</string>
+    <string name="make_discoverable">Make your device discoverable</string>
+    <string name="advertising">Your device is visible now, waiting for a connection request…</string>
+    <string name="device_name">Device name</string>
+    <string name="nearby_devices">Nearby devices</string>
+    <string name="tap_to_connect">Tap to connect</string>
+    <string name="tap_peer_hint">Tap a device to start the connection. The other device confirms the transfer before anything is sent.</string>
+    <string name="sender_hint">Make sure the other device is on the Receive screen with Bluetooth and Wi-Fi on, and that both devices are close together.</string>
+    <string name="no_peers_hint">Keep Wi-Fi and Bluetooth on and move closer to the other device. Make sure the Receive screen is open on the other device.</string>
+    <string name="waiting_for_sender_hint">Your device is visible. Wait for another device to start sending, then accept the request.</string>
+    <string name="waiting_for_sender">Waiting for the transfer to start…</string>
+    <string name="waiting_for_accept">Waiting for the other device to accept the connection…</string>
+    <string name="connecting_to">Connecting to %s</string>
+    <string name="receive_hint">Make your device visible so another device can send files to you.</string>
+
+    <string name="incoming_request">Incoming file transfer</string>
+    <string name="from_device">From device: %s</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="accept_connection_hint">Accept the connection to start receiving files. Nothing is transferred before you confirm.</string>
+    <string name="verification_code">Verification code</string>
+    <string name="verification_code_hint">The same code should appear on both devices before you continue.</string>
+
+    <string name="transferring">Transferring</string>
+    <string name="receiving">Receiving</string>
+    <string name="sending">Sending</string>
+    <string name="preparing">Preparing…</string>
+    <string name="preparing_send">Preparing files for sending…</string>
+    <string name="preparing_receive">Preparing to receive…</string>
+    <string name="file_counter">File %1$d of %2$d</string>
+    <string name="transfer_in_progress">A transfer is active</string>
+    <string name="return_to_transfer">You can return to the transfer screen to follow its progress.</string>
+
+    <string name="transfer_complete">Transfer complete</string>
+    <string name="transfer_failed">Transfer failed</string>
+    <string name="transfer_canceled">Transfer canceled</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="saved_to">Saved to: %s</string>
+    <string name="received_files_note">Files are written to a temporary file first, verified, then moved with a unique name. Partial files are never shown as complete.</string>
+    <string name="sent_successfully">All files were delivered and verified on the other device.</string>
+    <string name="canceled_hint">The transfer was canceled. No partial files were kept.</string>
+
+    <string name="history">Transfer history</string>
+    <string name="history_empty">No transfers yet</string>
+    <string name="history_empty_hint">Completed transfers appear here with name, size, speed and status.</string>
+    <string name="history_note">File contents are never stored in the history.</string>
+    <string name="history_storage_note">History is stored locally as a small JSON file inside the app. It contains no file contents.</string>
+    <string name="clear_history">Clear history</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_canceled">Canceled</string>
+    <string name="status_in_progress">In progress</string>
+
+    <string name="settings">Settings</string>
+    <string name="device">Device</string>
+    <string name="permissions">Permissions</string>
+    <string name="permissions_granted">All required permissions are granted.</string>
+    <string name="permissions_missing">Some permissions are required to start discovery.</string>
+    <string name="radios">Wireless</string>
+    <string name="radio_status">Bluetooth: %1$s • Wi-Fi: %2$s</string>
+    <string name="radio_note">Bluetooth is used for discovery only. Bulk data travels over local Wi-Fi.</string>
+    <string name="storage">Storage</string>
+    <string name="storage_note">The app needs no storage permission. Received files are written to the app-specific folder and can be moved with a file manager.</string>
+    <string name="save_to">Save to</string>
+    <string name="storage_dir">Internal SwiftShare folder</string>
+    <string name="language">Language</string>
+    <string name="language_arabic">العربية (Default)</string>
+    <string name="language_english">English</string>
+    <string name="language_note">The app follows the system language. Arabic is the default and its UI is right-to-left.</string>
+    <string name="about">About</string>
+    <string name="privacy_note">Direct device-to-device transfers only. No account, no cloud, no internet, no mobile data.</string>
+    <string name="speed_disclaimer">Real speed depends on both devices, Wi-Fi quality, distance and the environment. Displayed numbers are measurements, not promises.</string>
+
+    <string name="benchmark">Benchmark</string>
+    <string name="benchmark_desc">Measure real transfer speed with a test file</string>
+    <string name="test_file_size">Test file size</string>
+    <string name="run_benchmark">Run benchmark</string>
+    <string name="open_benchmark">Open benchmark</string>
+    <string name="mb_per_sec">MB/s</string>
+    <string name="eta">Estimated time remaining</string>
+    <string name="speed">Speed</string>
+    <string name="transferred">Transferred</string>
+    <string name="of">of</string>
+    <string name="file">File</string>
+    <string name="files">Files</string>
+    <string name="benchmark_discovery_subtitle">Pick a receiving device to measure real speed</string>
+    <string name="benchmark_needs_connection">Connect to a receiver first</string>
+    <string name="benchmark_needs_connection_hint">The benchmark sends a real test file to a receiving device and measures the complete transfer. No numbers are invented.</string>
+    <string name="connect_to_receiver">Find a receiver</string>
+    <string name="benchmark_running_hint">Sending a real test file… do not close the screen on the receiving device.</string>
+    <string name="benchmark_failed">The measurement could not be completed. Check the connection and try again.</string>
+    <string name="measured_result">Measured result</string>
+    <string name="measured_badge">REAL MEASUREMENT</string>
+    <string name="time_label">Time</string>
+    <string name="benchmark_disclaimer">This number measures a real device-to-device transfer over Nearby Connections, including the receiver writing the file to disk. Results vary with conditions.</string>
+    <string name="change_receiver">Change receiver</string>
+
+    <string name="permission_bluetooth_title">Nearby permissions</string>
+    <string name="permission_bluetooth_message">The app needs Bluetooth and Wi-Fi permissions to find nearby devices and establish a direct connection. Data travels over local Wi-Fi, not Bluetooth or the internet.</string>
+    <string name="permission_location_title">Location permission</string>
+    <string name="permission_location_message">Used on older Android versions (12 and below) to discover nearby devices through Nearby Connections.</string>
+    <string name="permission_denied">Permission denied. Transfer features will not work until it is granted.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="open_settings">Open settings</string>
+    <string name="nearby_unavailable">Nearby Connections is unavailable. Make sure Google Play Services is up to date.</string>
+    <string name="google_play_services">Make sure Google Play Services is up to date.</string>
+    <string name="bluetooth_disabled_title">Bluetooth is off</string>
+    <string name="bluetooth_disabled_message">Turn on Bluetooth to discover nearby devices and connect. Files travel over Wi-Fi.</string>
+    <string name="wifi_disabled_title">Wi-Fi is off</string>
+    <string name="wifi_disabled_message">Turn on Wi-Fi for high-speed transfers. Nearby Connections uses it for the data.</string>
+
+    <string name="no_files_selected">No files selected</string>
+    <string name="select_at_least_one_file">Select at least one file</string>
+    <string name="invalid_file">Invalid or unreadable file</string>
+    <string name="insufficient_storage">Insufficient storage</string>
+    <string name="connection_lost">Connection to the other device was lost</string>
+    <string name="connection_rejected">Connection request was rejected</string>
+    <string name="connection_timeout">Connection timed out</string>
+    <string name="duplicate_file">A file with the same name already exists</string>
+    <string name="rename_file">Rename file</string>
+    <string name="keep_both">Keep both files</string>
+    <string name="overwrite">Replace file</string>
+
+    <string name="qr_code">QR code</string>
+    <string name="connection_code">Short connection code</string>
+    <string name="enter_code">Enter code</string>
+    <string name="connect_by_code">Connect by code</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="apk_sharing_note">APK files can be shared through the file picker and are never installed automatically.</string>
+</resources>
